@@ -20,5 +20,4 @@ Contents
 
    usage
    api
-   feature2
-   versiontest
+   feature3
