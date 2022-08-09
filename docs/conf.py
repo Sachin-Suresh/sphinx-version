@@ -41,6 +41,7 @@ html_theme = 'sphinx_rtd_theme'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-smv_remote_whitelist = None
+#smv_remote_whitelist = None
 #smv_remote_whitelist = r"^upstream$"
+smv_remote_whitelist = r'^.*$'
 #smv_branch_whitelist = r'^(?!master).*$'
