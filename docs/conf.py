@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx_multiversion'
 ]
 
 intersphinx_mapping = {
@@ -27,9 +28,19 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+#html_sidebars = [
+#    "_templates/versioning.html",
+#]
+
+html_sidebars = {'**': ['versioning.html']}
+
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+smv_remote_whitelist = None
+#smv_remote_whitelist = r"^upstream$"
+#smv_branch_whitelist = r'^(?!master).*$'
