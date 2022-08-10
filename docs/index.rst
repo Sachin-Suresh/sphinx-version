@@ -20,4 +20,9 @@ Contents
 
    usage
    api
+<<<<<<< HEAD
+   changes2
+   changes3
+=======
    changes1
+>>>>>>> 3b15d16135579d98e497c793ffd87750d47d4e0b
