@@ -32,7 +32,7 @@ templates_path = ['_templates']
 #    "_templates/versioning.html",
 #]
 
-html_sidebars = {'**': ['versioning.html']}
+html_sidebars = {'**': ["versions.html"]}
 
 # -- Options for HTML output
 
