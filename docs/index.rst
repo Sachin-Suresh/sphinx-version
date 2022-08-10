@@ -20,4 +20,5 @@ Contents
 
    usage
    api
-   feature3
+   changes2
+   changes3
